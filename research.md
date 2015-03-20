@@ -64,6 +64,8 @@ These are project I worked on in the past.
 
 ### Effects of projected sea-level rise on shore birds
 
+![snowy-plover]({{site-url}}/images/snowy-plover.jpg)
+
 From 2009 to 2012 I worked with a collaborative research group that included scientists 
 from the University of Florida and the Army Corp of Engineers to examine the effects of 
 projected sea-level rise on shore-birds along the Gulf Coast of Florida.  My primary role 
