@@ -9,6 +9,8 @@ These are projects that I am actively working on.
 
 ### Parallel evolutionary radiations in *Protea* and *Pelargonium* in the Greater Cape Floristic Region
 
+![quiver]({{site-url}}/images/quiver-trees.jpg)
+
 This project is funded by a grant from the NSF Dimensions of Biodiversity program, 
 awarded to [Carl Schlichting](http://www.eeb.uconn.edu/people/schlichting/) and 
 colleagues. The Greater Cape Floristic Region (GCFR) of South Africa is a region of
