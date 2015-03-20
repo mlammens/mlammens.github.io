@@ -28,7 +28,7 @@ patterns of biodiversity in this region.
 
 ### The invasion of *Frangula alnus* in North America
 
-![f-alnus](images/f-alnus.jpg)
+![f-alnus](/images/f-alnus.jpg)
 
 Though the usefulness and value of distinguishing native and non-native species is 
 currently a topic of lively debate, it is clear that some non-native species have 
