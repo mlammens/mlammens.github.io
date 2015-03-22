@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My personal GitHub challenge
+comments: True
 ---
 
 As many people do, when January 1st came around this year, I set a few goals for myself. Most of mine had to do with my work, primarily because I've been trying to find good ways to reach my pre-fatherhood level of productivity. (Aside: As of today, my daughter is 5 months and 1 day old!) One of the goals I set was to have at least one commit per day to my GitHub account. A look at 
