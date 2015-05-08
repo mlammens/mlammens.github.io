@@ -62,7 +62,7 @@ plants.
 
 ## Past research projects
 
-These are project I worked on in the past.
+These are projects I worked on in the past.
 
 ### Effects of projected sea-level rise on shore birds
 
