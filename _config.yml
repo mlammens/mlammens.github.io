@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               Matthew Aiello-Lammens
 tagline:             'Ecologist at Work'
-description:         'The website of Matt Aiello-Lammens'
+description:         'Matt Aiello-Lammens - Information and random thoughts'
 url:                 
 baseurl:             /
 paginate:            5
