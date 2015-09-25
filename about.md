@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![pic](images/Aiello-Lammens-Pic.JPG)
+![draft]({{site-url}}/images/Aiello-Lammens-Pic.jpg)
 
 Hi, I'm Matt Aiello-Lammens
 
