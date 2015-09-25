@@ -4,10 +4,12 @@ title: About
 ---
 
 ![draft]({{site-url}}/images/Aiello-Lammens-Pic.JPG)
+![quiver]({{site-url}}/images/quiver-trees.jpg)
 
 Hi, I'm Matt Aiello-Lammens
 
-I'm an Assistant Professor in the Environmental Studies and Science Department at Pace University.
+I'm an Assistant Professor in the 
+[Environmental Studies and Science Department](http://www.pace.edu/dyson/academic-departments-and-programs/environmental-studies-and-science) at Pace University.
 From 2007 to 2015 I trained as ecologist as a postdoc in the Department of Ecology and Evolutionary Biology at the University of Connecticut with 
 [John Silander](http://hydrodictyon.eeb.uconn.edu/people/silander/) 
 (and [many others](http://darwin.eeb.uconn.edu/wiki/index.php/Parallel_Evolutionary_radiations_in_Protea_and_Pelargonium_in_the_Greater_Cape_Floristic_Region)) and as Ph.D. student with 
