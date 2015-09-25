@@ -4,7 +4,6 @@ title: About
 ---
 
 ![draft]({{site-url}}/images/Aiello-Lammens-Pic.JPG)
-![quiver]({{site-url}}/images/quiver-trees.jpg)
 
 Hi, I'm Matt Aiello-Lammens
 
