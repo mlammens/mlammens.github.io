@@ -3,24 +3,29 @@ layout: page
 title: About
 ---
 
+![pic](images/Aiello-Lammens-Pic.JPG)
+
 Hi, I'm Matt Aiello-Lammens
 
-I'm an ecologist, currently working as a post-doc 
-in the Department of Ecology and Evolutionary Biology at the University of Connecticut
-with John Silander, and many others. My current research focuses on examining trait by
-environment relationships of plant communities in the Cape Floristic Region (CFR) of 
-South Africa, and the processes involved in assembly of these communities. Prior to this, I go my Ph.D. under the guidance of H. Resit Akcakaya in the Department of Ecology 
-and Evolution at Stony Brook University. My dissertation research was mostly in the 
-areas of population ecology and invasion biology. I also participated in several projects
-focused on conservation biology related questions. A common theme in my research is 
-that I develop new analysis tools and techniques that help answer questions in ecology 
-and conservation biology. I have focused on particularly challenging aspects of 
-population modeling, including appropriately modeling biological processes such as 
-density dependence and addressing the computational challenges of carrying-out 
-global sensitivity analyses. Currently I am working on methods applied to community 
-assembly and understanding trait by environment relationships. When not doing research, 
-I like to spend time outside hiking, climbing, biking, etc., preferably with my wife
-and daughter. 
+I'm an Assistant Professor in the Environmental Studies and Science Department at Pace University.
+From 2007 to 2015 I trained as ecologist as a postdoc in the Department of Ecology and Evolutionary Biology at the University of Connecticut with 
+[John Silander](http://hydrodictyon.eeb.uconn.edu/people/silander/) 
+(and [many others](http://darwin.eeb.uconn.edu/wiki/index.php/Parallel_Evolutionary_radiations_in_Protea_and_Pelargonium_in_the_Greater_Cape_Floristic_Region)) and as Ph.D. student with 
+[H. Resit Akcakaya](life.bio.sunysb.edu/~akcakaya/) 
+in the Department of Ecology and Evolution at Stony Brook University. 
+My research spans several sub-disciplines of ecology, including population biology, community ecology, and quantitative ecology, and also spans taxa. 
+I've published on birds, herps, inverts, and coming soon, plants.
+But it's plants I'm most interested in, particularly the plants in the forests of northeastern North America. 
+The common thread in my research pursuits is the application of new quantitative methods to address questions in both basic and applied ecology.
 
-This website is a work in progress and is built with Jekyll and used the 
-[Lanyon](http://lanyon.getpoole.com) theme
+I'm also dedicated to teaching ecology and quantitative methods to learners at all levels. 
+As a new professor, I'm experiencing for the first time what it's like to carry multiple courses at the same time, but I learned and developed the teaching methods I employ by working along side instructors with more experience as a grad student, and volunteering my time teaching with the [Software Carpentry Foundation](http://software-carpentry.org/).
+I'm constantly on the look out for ways to improve my teaching, with the goal of helping everyone understand the important topics of ecology and environmental science.
+
+When not teaching or doing research, I like to spend time outside hiking, climbing, biking, etc., preferably with my wife and daughter. 
+
+***
+
+This website is constantly changing and evolving. 
+Currently it is built with Jekyll and uses the
+[Lanyon](http://lanyon.getpoole.com) theme.
