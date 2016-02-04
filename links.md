@@ -3,6 +3,8 @@ layout: page
 title: Links
 ---
 
+# Links
+
 Here are sites I also work on from time-to-time:
 
 * [My Biostats site](https://mlammens.github.io/Biostats) - I put materials and thoughts related to biostats here. Most of these materials are in support of classes I teach.
