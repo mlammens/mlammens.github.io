@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Other Sites
+title: Links
 ---
 
 Here are sites I also work on from time-to-time:
