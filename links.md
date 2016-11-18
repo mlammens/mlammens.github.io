@@ -5,7 +5,7 @@ title: Links
 
 ## Documents of Interest
 
-* [Stats Primer - Teacher Training for Independent Science Research]({{site-url}}/docs/stats_primer.md)
+* [Stats Primer - Teacher Training for Independent Science Research](docs/stats_primer.md)
 
 ## Other sites I also work on, from time-to-time
 
