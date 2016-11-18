@@ -1,9 +1,13 @@
 ---
 layout: page
-title: Other Sites
+title: Links
 ---
 
-Here are sites I also work on from time-to-time:
+## Documents of Interest
+
+* [Stats Primer - Teacher Training for Independent Science Research]({{site-url}}/docs/stats_primer.html)
+
+## Other sites I also work on, from time-to-time
 
 * [My Biostats site](https://mlammens.github.io/Biostats) - I put materials and thoughts related to biostats here. Most of these materials are in support of classes I teach.
 
