@@ -5,7 +5,7 @@ title: Links
 
 ## Documents of Interest
 
-* [Stats Primer - Teacher Training for Independent Science Research](docs/stats_primer.md)
+* [Stats Primer - Teacher Training for Independent Science Research](https://docs.google.com/spreadsheets/d/1HiyS88EFPNIh9JkLuuchAlxD2-0Mgd60wCT56en497g/edit?usp=sharing) - This is a Google Sheet I put together to help teach statistics that would be valuable to high school science teachers who advise/teach independent research.
 
 ## Other sites I also work on, from time-to-time
 
