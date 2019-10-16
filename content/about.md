@@ -15,7 +15,7 @@ From 2007 to 2015 I trained as ecologist as a postdoc in the Department of Ecolo
 [H. Resit Akcakaya](life.bio.sunysb.edu/~akcakaya/) 
 in the Department of Ecology and Evolution at Stony Brook University. 
 My research spans several sub-disciplines of ecology, including population biology, community ecology, and quantitative ecology, and also spans taxa. 
-I've published on birds, herps, inverts, and coming soon, plants.
+I've published on birds, herps, inverts, and plants.
 But it's plants I'm most interested in, particularly the plants in the forests of northeastern North America. 
 The common thread in my research pursuits is the application of new quantitative methods to address questions in both basic and applied ecology.
 
