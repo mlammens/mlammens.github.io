@@ -1,9 +1,0 @@
----
-layout: post
-title: Pen and Paper
-comments: True
----
-
-At some point while writing a manuscript, I inevitably resort to killing trees for the sake of making progress. That is, I print out a physical copy of my manuscript, and put pen to paper. I like to think that someday I will be able to skip printing out the last couple of drafts, but I have a hard time seeing that happen anytime soon. Perhaps when I buy a bigger screen? When I started graduate school, I would print out what ever papers we had to read for class (and there were plenty of them!) so I could physically underline and write marginal notes. Years of reading physical copies of material with a pen in my hand had me convinced that I wouldn't retain as much information if I read papers on my computer. But I trained myself to read completely digitally, sparing myself the inconvenience of lugging around stacks, or boxes, of papers when I needed to move offices. Though I should point out that I often still hold a pen in my hand when I read. The transition for writing seems more daunting. One of the biggest reasons I print out my draft manuscripts is so I can lay it all out - it lets me look over several sections at once. This is really critical when I need to move things around. But more fundamentally, there is something about physically touching the pen to paper that stimulates my thinking. Sometimes, just looking at a section and starting to write the first bits of a new sentence will send me back to my computer to restructure a whole paragraph. It just doesn't feel like that stimulation comes by staring at my computer screen.
-
-![draft](images/ms-draft.jpg)
