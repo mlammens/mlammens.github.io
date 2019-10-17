@@ -5,6 +5,7 @@ title: Home
 <div style="height:300px; overflow: hidden">
   <img src="/./_index_files/DSC_0047.JPG" style="max-width:100%;min-width:40px;float:top;" alt="" />
 </div>
+*Rockefeller State Park Preserve in the Fall. Photo by Alex Hettena*
 
 # Matthew E. Aiello-Lammens, Ph.D.
 
@@ -18,3 +19,5 @@ Welcome to my personal website. I use this space to share research project updat
 * [ResearchGate](https://www.researchgate.net/profile/Matthew_Aiello-Lammens)
 * [Google Scholar](https://scholar.google.com/citations?user=tdPkHFEAAAAJ&hl=en)
 * [LinkedIn](https://www.linkedin.com/in/matthew-aiello-lammens-b0680a131/)
+
+### Notes and Posts
