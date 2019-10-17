@@ -12,7 +12,7 @@ title: Home
 
 Welcome to my personal website. I use this space to share research project updates and (sporadically) post notes about ecology, statistics, research, academia, etc.. 
 
-### Other relevant sites
+### Other sites
 
 * [My Pace University website](https://www.pace.edu/dyson/sections/meet-the-faculty/faculty-profile/maiellolammens)
 * [ResearchGate](https://www.researchgate.net/profile/Matthew_Aiello-Lammens)
