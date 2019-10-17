@@ -11,3 +11,10 @@ title: Home
 ## Assistant Professor, Department of Environmental Studies and Science, Pace University
 
 Welcome to my personal website. I use this space to share research project updates and (sporadically) post notes about ecology, statistics, research, academia, etc.. 
+
+### Other relevant sites
+
+* [My Pace University website](https://www.pace.edu/dyson/sections/meet-the-faculty/faculty-profile/maiellolammens)
+* [ResearchGate](https://www.researchgate.net/profile/Matthew_Aiello-Lammens)
+* [Google Scholar](https://scholar.google.com/citations?user=tdPkHFEAAAAJ&hl=en)
+* [LinkedIn](https://www.linkedin.com/in/matthew-aiello-lammens-b0680a131/)
