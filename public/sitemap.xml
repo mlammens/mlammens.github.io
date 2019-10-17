@@ -43,6 +43,56 @@
   </url>
   
   <url>
+    <loc>/categories/conferences/</loc>
+    <lastmod>2016-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/naccb/</loc>
+    <lastmod>2016-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2016-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/scb/</loc>
+    <lastmod>2016-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2016/08/03/thoughts-on-the-2016-north-american-congress-for-conservation-biology/</loc>
+    <lastmod>2016-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/musings/</loc>
+    <lastmod>2016-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2016/03/31/setting-the-bar-and-expectations-of-my-students/</loc>
+    <lastmod>2016-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/teaching/</loc>
+    <lastmod>2016-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2016/02/25/does-e-grading-lead-to-less-student-engagement-with-feedback/</loc>
+    <lastmod>2016-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/grading/</loc>
+    <lastmod>2016-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2016/02/14/a-plain-markdown-post/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url>
@@ -73,13 +123,43 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/tags/rstudio/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/rstudio/</loc>
-    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+    <loc>/tags/native-species/</loc>
+    <lastmod>2015-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2015/10/05/nybg-native-plant-symposium/</loc>
+    <lastmod>2015-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/plants/</loc>
+    <lastmod>2015-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/research/</loc>
+    <lastmod>2015-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/south-africa/</loc>
+    <lastmod>2015-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2015/08/18/south-africa-2015/</loc>
+    <lastmod>2015-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/travel/</loc>
+    <lastmod>2015-08-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -110,6 +190,21 @@
   <url>
     <loc>/post/2015/07/23/lorem-ipsum/</loc>
     <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/naturalizing/</loc>
+    <lastmod>2015-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/northeastern-forests/</loc>
+    <lastmod>2015-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2015/06/04/spring-time-naturalizing/</loc>
+    <lastmod>2015-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>

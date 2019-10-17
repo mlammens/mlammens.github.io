@@ -31,6 +31,33 @@
     </item>
     
     <item>
+      <title>Thoughts on the 2016 North American Congress for Conservation Biology</title>
+      <link>/post/2016/08/03/thoughts-on-the-2016-north-american-congress-for-conservation-biology/</link>
+      <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2016/08/03/thoughts-on-the-2016-north-american-congress-for-conservation-biology/</guid>
+      <description>I started graduate school in 2007 with the intention of becoming a conservation biologist. I don&amp;rsquo;t think I had a good sense for what that meant at the time, given my lack of experience, but I knew that I wanted to work toward science that protected natural places and the organisms in them. So, it seemed logical that the first scientific meeting I would attend would be the Congress for Conservation Biology - the 2008 international meeting in Chattanooga to be exact.</description>
+    </item>
+    
+    <item>
+      <title>Setting the bar and expectations of my students</title>
+      <link>/post/2016/03/31/setting-the-bar-and-expectations-of-my-students/</link>
+      <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2016/03/31/setting-the-bar-and-expectations-of-my-students/</guid>
+      <description>I like to think that I have high expectations of my students. Admittedly, being a novice teacher, I&amp;rsquo;m open to the idea that I&amp;rsquo;ll find out the truth after a few more years. Regardless, in my mind setting a high bar for what my students should learn and understand, and having high expectations of them, have been synonymous. Over the course of the year, I&amp;rsquo;ve begun to question this. Here&amp;rsquo;s an example - at the beginning of this semester I set out to teach my biostatistics course in much the same way that it was taught to me (and that I later helped TA) at grad school.</description>
+    </item>
+    
+    <item>
+      <title>Does e-grading lead to less student engagement with feedback?</title>
+      <link>/post/2016/02/25/does-e-grading-lead-to-less-student-engagement-with-feedback/</link>
+      <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2016/02/25/does-e-grading-lead-to-less-student-engagement-with-feedback/</guid>
+      <description>For one of my courses this semester I&amp;rsquo;m using Blackboard Grade Center to have students submit their assignments and for me to assess them. I actually prefer to assess/correct assignments with old-fashioned pen and paper; I think it&amp;rsquo;s a bit quicker. But every semester I&amp;rsquo;m faced with a pile of correcting, whether electronic or physical, I try to start by using e-grading. One thing I&amp;rsquo;m noticing is that my students don&amp;rsquo;t necessarily seem too engaged with my feedback I&amp;rsquo;ve provided through the Grade Center.</description>
+    </item>
+    
+    <item>
       <title>A Plain Markdown Post</title>
       <link>/post/2016/02/14/a-plain-markdown-post/</link>
       <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
@@ -39,6 +66,24 @@
       <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.
 1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
  You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
+    </item>
+    
+    <item>
+      <title>NYBG native plant symposium</title>
+      <link>/post/2015/10/05/nybg-native-plant-symposium/</link>
+      <pubDate>Mon, 05 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2015/10/05/nybg-native-plant-symposium/</guid>
+      <description>A few weeks ago I went to the New York Botanical Garden for the Native Plant Symposium. Overall, it was a good experience. The organizers put together a great line-up of speakers, and I thought each presentation was interesting and thought provoking. One aspect of this symposium that was interesting to me was that it was targeted towards a fairly general audience. The talks were not like those you would see at ESA, though in a few cases new research was presented.</description>
+    </item>
+    
+    <item>
+      <title>South Africa 2015</title>
+      <link>/post/2015/08/18/south-africa-2015/</link>
+      <pubDate>Tue, 18 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2015/08/18/south-africa-2015/</guid>
+      <description>A little less than a month ago, I took my second trip to South Africa. Last year I spent nearly seven weeks there, collecting field data that we&amp;rsquo;re currently in the process of analyzing. It was an amazing experience, and given the length of time I was there, I felt like I was pretty immersed in the region. In contrast, this year I was in country for only seven days - two teaching a Software Carpentry workshop, one playing tourist, and three at a symposium our research group organized.</description>
     </item>
     
     <item>
@@ -60,6 +105,15 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <guid>/post/2015/07/23/lorem-ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 Quisque mattis volutpat lorem vitae feugiat.</description>
+    </item>
+    
+    <item>
+      <title>Spring time naturalizing</title>
+      <link>/post/2015/06/04/spring-time-naturalizing/</link>
+      <pubDate>Thu, 04 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2015/06/04/spring-time-naturalizing/</guid>
+      <description>Every year, when spring comes, I get pretty excited to get outside and do some naturalizing. Well, mostly botanizing. I don&amp;rsquo;t consider myself a particularly good naturalist. I can&amp;rsquo;t walk through the forests close to home and spout off the names of all the plants around me - common or binomial. I can name the most prominent ones. I can usually identify the habitat I&amp;rsquo;m in. But overall, I have a lot improving to do.</description>
     </item>
     
     <item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Native species on A minimal Hugo website</title>
+    <link>/tags/native-species/</link>
+    <description>Recent content in Native species on A minimal Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Oct 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/native-species/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NYBG native plant symposium</title>
+      <link>/post/2015/10/05/nybg-native-plant-symposium/</link>
+      <pubDate>Mon, 05 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2015/10/05/nybg-native-plant-symposium/</guid>
+      <description>A few weeks ago I went to the New York Botanical Garden for the Native Plant Symposium. Overall, it was a good experience. The organizers put together a great line-up of speakers, and I thought each presentation was interesting and thought provoking. One aspect of this symposium that was interesting to me was that it was targeted towards a fairly general audience. The talks were not like those you would see at ESA, though in a few cases new research was presented.</description>
+    </item>
+    
+  </channel>
+</rss>
