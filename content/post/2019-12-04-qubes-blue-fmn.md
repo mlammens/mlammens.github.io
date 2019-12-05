@@ -41,5 +41,5 @@ There were a few technical difficulties that we had to overcome, some that can b
 
 Here are the Rmd and DOCX file formats for the module. Make sure to go look at the original [Data is the New Science](https://qubeshub.org/qubesresources/publications/1138/1) module as well.
 
-* Rmd format - 
-* DOCX format - 
+* [Data is the New Science - R Remix - Rmd format](https://github.com/mlammens/mlammens.github.io/blob/master/misc_files/Data-is-the-new-science-R-Remix.Rmd) 
+* [Data is the New Science - R Remix - DOCX format](https://github.com/mlammens/mlammens.github.io/blob/master/misc_files/Data-is-the-new-science-R-Remix.docx)  
