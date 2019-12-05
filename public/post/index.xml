@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Personal website for Matt Aiello-Lammens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>QUBES BLUE FMN</title>
+      <link>/post/2019/12/04/qubes-blue-fmn/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/12/04/qubes-blue-fmn/</guid>
+      <description>This fall I participated in my second QUBES Faculty Mentoring Network, this time working along side several other educators to implement and/or develop learning modules associated with the Biodiversity Literacy in Undergraduate Education (BLUE) network. I chose to adapt an existing module to implement in my Introduction to Statistics for Life Science course, and still have intentions of creating a new module for our last week of new material coming up.</description>
+    </item>
     
     <item>
       <title>Thoughts on the 2016 North American Congress for Conservation Biology</title>
