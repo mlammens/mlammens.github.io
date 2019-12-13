@@ -84,5 +84,14 @@
 I&amp;rsquo;m an Assistant Professor in the Environmental Studies and Science Department at Pace University. From 2007 to 2015 I trained as ecologist as a postdoc in the Department of Ecology and Evolutionary Biology at the University of Connecticut with John Silander (and many others) and as Ph.D. student with H. Resit Akcakaya in the Department of Ecology and Evolution at Stony Brook University. My research spans several sub-disciplines of ecology, including population biology, community ecology, and quantitative ecology, and also spans taxa.</description>
     </item>
     
+    <item>
+      <title>Writing Log</title>
+      <link>/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/writing/</guid>
+      <description>What is this &amp;ldquo;writing log&amp;rdquo; for? Good question. For the most part I think it&amp;rsquo;s a psychological trick I&amp;rsquo;m playing on myself. You see, based on advice offered in several places (e.g., here and in this book), I&amp;rsquo;ve been trying to foster a habit of daily writing. One thing that helps me with this is writing on projects that I version control with git and github. This is because seeing a block of green boxes that indicate that I made consistent contributions over several days simply make me feel good.</description>
+    </item>
+    
   </channel>
 </rss>
