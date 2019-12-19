@@ -9,5 +9,6 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+* 2019-12-18 Begin outline of network activities for RCN UBE
 * 2019-12-16 Tweaked analysis files for Coyote ROW manuscript
 * 2019-12-13 Worked on outline for RCN-UBE grant
