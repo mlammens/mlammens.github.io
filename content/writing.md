@@ -9,6 +9,7 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+* 2019-12-23 Project Description and Website work for BEDE Net RCN UBE
 * 2019-12-20 'Snack writing' on RCN UBE Project Description
 * 2019-12-19 Edits and feedback on bobcat / coyote KM manuscript
 * 2019-12-18 Begin outline of network activities for RCN UBE
