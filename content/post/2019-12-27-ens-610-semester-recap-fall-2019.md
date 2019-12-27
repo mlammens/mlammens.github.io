@@ -33,3 +33,5 @@ For the second half, we read sections of various [IPCC Reports](https://www.ipcc
 * Expand the rubric for the final paper
 * Setup more low-stakes writing assignments 
     * Require a draft
+* Need to think more about weekly reading responses
+    * The point of the responses is to make sure the students read the materials before coming to class. However, I'm not convinced I'm using them affectively. Partly this is because I so often fall behind on scoring them, and my current rubric is definitely not alligned with my goals for these assignments. Next year I need to bring a backward design approach to my weekly assessments.
