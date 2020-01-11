@@ -9,6 +9,11 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+* 2020-01-10 Rough draft of my sections for RCN-UBE grant, and some organization work
+* 2020-01-09 Analysis work on rec trail impacts MP manuscript
+* 2020-01-08 Budget stuff and org for RCN-UBE (that's writing, right?)
+* 2020-01-07 Transfer of notes to writing for RCN-UBE grant
+* 2020-01-06 Idea dump and organization tasks for RCN-UBE grant
 * 2019-12-31 Furthered analysis for Coyote ROW DB manuscript
 * 2019-12-23 Project Description and Website work for BEDE Net RCN UBE
 * 2019-12-20 'Snack writing' on RCN UBE Project Description
