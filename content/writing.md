@@ -9,6 +9,7 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+* 2020-01-16 Additions and edits to PD for RCN-UBE grant
 * 2020-01-10 Rough draft of my sections for RCN-UBE grant, and some organization work
 * 2020-01-09 Analysis work on rec trail impacts MP manuscript
 * 2020-01-08 Budget stuff and org for RCN-UBE (that's writing, right?)
