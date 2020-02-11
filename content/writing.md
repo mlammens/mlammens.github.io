@@ -9,6 +9,7 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+* 2020-02-10 Analysis for pine demography paper, comments on OBM proposal
 * 2020-02-05 Additional edits for rec trail impacts MP manuscript
 * 2020-02-04 Pine demography analysis and edits for rec trail impacts MP manuscript
 * 2020-02-03 Pine demography analysis
