@@ -20,3 +20,10 @@ I made no real effort to combine the information provided in each of the papers,
 I didn't identify any major themes or gaps in knowledge.
 What really strikes me is I was reading a *ton* of papers, and while not a single one of them read as poorly as mine, it never occurred to me to do anything different. 
 
+I think it's hard to teach students to synthesize, but I try a few things in my courses to help get them there.
+I assign weekly reading response writing assignments. 
+These are short, 300 - 500 words, and include a prompt question or idea. 
+They are fairly low-stakes (individually not worth a lot and graded mostly based wheather they were completed or not). 
+For the term paper, I have them do an annotated bibliography.
+In some ways, this may seem like a novice approach, but it helps them connect key ideas from the individual papers.
+
