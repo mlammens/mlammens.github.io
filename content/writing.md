@@ -9,6 +9,9 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+* 2020-02-20 ESA abstract for pine demography paper
+* 2020-02-19 Analysis for pine demography paper
+* 2020-02-18 NENHC abstract for pine demography paper 
 * 2020-02-17 Analysis for pine demography paper
 * 2020-02-14 Comments on OBM proposal
 * 2020-02-13 Analysis for pine demography paper
