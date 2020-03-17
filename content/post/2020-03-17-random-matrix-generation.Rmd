@@ -1,0 +1,171 @@
+---
+title: Random matrix generation
+author: ''
+date: '2020-03-17'
+slug: random-matrix-generation
+categories:
+  - Research
+tags:
+  - R Code
+---
+
+For better or worse, having lots of time inside during the [COVID-19 Pandemic](https://www.cdc.gov/coronavirus/2019-ncov/index.html) has led me to tackle some of my outstanding R coding problems.
+Here's one possible solution I've come up with for generating random community abundance matrices following one of the suggested approaches in [Ulrich and Gotelli 2010](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/09-2157.1).
+
+# Implementing the IT random matrix filling / creation algorithm from Ulrich and Gotelli 2010, Ecology.
+
+To quote from the text:
+
+> IT assigns individuals randomly to matrix cells with probabilities proportional to observed row and column abundance totals until, for each row and column, total abundances are reached.
+
+## Approach
+
+To sample with "probabilities proportional to observed row and column abundance totals", I used the `chisq.test` function. 
+The expected values in a matrix (or contingency table) are a function of the row and column abundances.
+I believe this approach is supported by Ulrich and Gotelli's comparison of the results they found using the IT algorithm compared to $\chi^2$ analysis for 200 random matrices (p. 3395).
+
+Using these **expected** values, we can generate matrices comprised of all zero values *except* a single 1 value for a random matrix element. 
+The element that is assigned a value of 1 will be decided based on a random draw from the matrix indices that is weighted by the *expected* values in the original matrix.
+Next, by adding a series of these random matrices we can make a new matrix with the same **matrix sum** as the original matrix.
+Finally, using an `if` statement, we can do this while assuring that the row and column abundances remain the same as the original matrix.
+
+## Working through an example 
+
+Below I present two examples of using this approach. The first comes from the help file for the `chisq.test` function, with some small modifications.
+
+### `chisq.test` example
+
+First thing to do is to use `chisq.test` to get the **expected** counts for any matrix. 
+These expected counts are a function of the row and column sums:
+
+$$
+\text{expected count} = \frac{\text{row sum} \times \text{column sum}}{\text{matrix sum}}
+$$
+
+```{r}
+M <- as.table(rbind(c(762, 327, 468), c(484, 239, 477)))
+Xsq <- chisq.test(M)  # Prints test summary
+# Xsq$observed   # observed counts (same as M)
+Xsq$expected   # expected counts under the null
+```
+
+Next, we use a `while` loop to make a new matrix with a matrix sum equal to that of the original matrix.
+Within the `while` loop, new matrices are created with all zeros *except* a randomly placed value of 1. 
+We're adding an `if` statement to "throw out" new zero matrices that result in row or column sums that are greater than those for the original matrix.
+
+```{r}
+# Make a new matrix of all zeros
+new_mat <- M * 0
+
+while(sum(new_mat) < sum(M)){
+  zero_mat <- M * 0
+  zero_mat[sample(1:length(Xsq$expected), size = 1, prob = Xsq$expected)] <- 1
+  new_mat_temp <- new_mat + zero_mat
+  if( !any((rowSums(new_mat_temp) - rowSums(Xsq$expected)) > 0 ) &
+      !any((colSums(new_mat_temp) - colSums(Xsq$expected)) > 0 )) {
+    new_mat <- new_mat_temp
+  }
+}
+new_mat
+
+```
+
+Finally, let's do just a few checks to make sure the matrix sums are the same and the row and column sums are the same.
+
+```{r}
+sum(new_mat) == sum(M)
+all(rowSums(new_mat) == rowSums(Xsq$expected))
+all(colSums(new_mat) == colSums(Xsq$expected))
+
+```
+
+
+### A larger random matrix
+
+Here I'm applying the same setup as above on a 10 x 10 matrix, with shuffled values between 1 and 100.
+
+```{r}
+rand_matr <- matrix(sample(1:100), nrow = 10, ncol = 10)
+rand_matr_exp <- chisq.test(rand_matr)$expected 
+
+# Make a new matrix of all zeros
+new_mat <- rand_matr * 0
+
+while(sum(new_mat) < sum(rand_matr)){
+  zero_mat <- rand_matr * 0
+  zero_mat[sample(1:length(rand_matr_exp), size = 1, prob = rand_matr_exp)] <- 1
+  new_mat_temp <- new_mat + zero_mat
+  if( !any((rowSums(new_mat_temp) - rowSums(rand_matr_exp)) > 0 ) &
+      !any((colSums(new_mat_temp) - colSums(rand_matr_exp)) > 0 )) {
+    new_mat <- new_mat_temp
+  }
+}
+new_mat
+
+sum(new_mat) == sum(rand_matr)
+all(rowSums(new_mat) == rowSums(rand_matr_exp))
+all(colSums(new_mat) == colSums(rand_matr_exp))
+
+
+```
+
+## Making a function for this
+
+Let's make this into a function
+
+```{r}
+it_randomize <- function(matr){
+  
+  # perform chisq test to get expected values
+  matr_exp <- chisq.test(matr)$expected 
+  
+  # make a new matrix of all zeros
+  new_mat <- matr * 0
+  
+  # use a while loop to add matrices with a single, randomly
+  # placed value of 1 until
+  # the new_mat sum is the same as the original matrix
+  while(sum(new_mat) < sum(matr)){
+    # make a random matrix
+    # this is done by randomly choosing a matrix index value, weighted
+    # by the expected matrix values at each index
+    zero_mat <- matr * 0
+    zero_mat[sample(1:length(matr_exp), size = 1, prob = matr_exp)] <- 1
+    
+    # add the random matrix to the new_mat temporalily
+    new_mat_temp <- new_mat + zero_mat
+    
+    # keep new_mat_temp if it doesn't result in over filling the 
+    # row or column sums
+    if( !any((rowSums(new_mat_temp) - rowSums(matr_exp)) > 0 ) &
+        !any((colSums(new_mat_temp) - colSums(matr_exp)) > 0 )) {
+      new_mat <- new_mat_temp
+    }
+  }
+  
+  return(new_mat)
+}
+
+```
+
+Apply the new function
+
+```{r}
+new_mat <- it_randomize(M)
+new_mat
+sum(new_mat) == sum(M)
+all(rowSums(new_mat) == rowSums(Xsq$expected))
+all(colSums(new_mat) == colSums(Xsq$expected))
+
+```
+
+
+```{r}
+new_mat <- it_randomize(rand_matr)
+new_mat
+sum(new_mat) == sum(rand_matr)
+all(rowSums(new_mat) == rowSums(rand_matr_exp))
+all(colSums(new_mat) == colSums(rand_matr_exp))
+
+```
+
