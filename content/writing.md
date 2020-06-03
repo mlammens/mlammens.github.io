@@ -9,6 +9,12 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+
+* 2020-06-02 Blogging about uncertainty, writing for Academic Portfolio
+* 2020-06-01 Writing for Academic Portfolio, note taking for Invasive SDMs
+
+Extended logging break. Covid, etc..
+
 * 2020-03-17 Worked on code for community analysis project with JB
 * 2020-02-25 Formatting work on NCEP SDM module updates
 * 2020-02-24 Analysis for pine demography paper, comments on OBM proposal
