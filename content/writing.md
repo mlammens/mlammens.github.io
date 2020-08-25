@@ -9,8 +9,12 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+* 2020-08-25 Major edits on Academic Portfolio - Teaching Statement
+
+Extended logging break. 
+
 * 2020-06-09 Pine demography methods writing, edits to AP
-* 2020-06-07 Editing of Academic Porfolio
+* 2020-06-07 Editing of Academic Portfolio
 * 2020-06-03 Some more writing for Academic Portfolio, edits on culvert thesis
 * 2020-06-02 Blogging about uncertainty, writing for Academic Portfolio
 * 2020-06-01 Writing for Academic Portfolio, note taking for Invasive SDMs
