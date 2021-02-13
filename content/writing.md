@@ -9,6 +9,10 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+* 2021-02-13 Pine transplants analysis work
+
+Extended logging break. 
+
 * 2020-08-25 Major edits on Academic Portfolio - Teaching Statement
 
 Extended logging break. 
