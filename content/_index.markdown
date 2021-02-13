@@ -5,7 +5,7 @@ title: Home
 <div style="height:300px; overflow: hidden">
   <img src="/./_index_files/graham_hill_winter.jpg" style="max-width:100%;min-width:40px;float:top;" alt="" />
 </div>
-*Rockefeller State Park Preserve in the Fall. Photo by Alex Hettena*
+*Graham Hill County Park in Winter. Photo by Matt Aiello-Lammens*
 
 # Matthew E. Aiello-Lammens, Ph.D.
 
