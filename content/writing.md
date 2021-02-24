@@ -9,6 +9,8 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+* 2021-02-23 Figure work with MT on Culvert ms; Revisions for maskRangeR ms
+* 2021-02-22 Pine tranplant analysis work
 * 2021-02-17 Addressed co-author comments on carnivore ROW ms
 * 2021-02-16 Pine transplants analysis work - lmer work and what not
 * 2021-02-15 Wallace NCEP module work
