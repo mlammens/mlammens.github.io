@@ -2,7 +2,6 @@
 title: ENS 610 - Semester Recap - Fall 2019
 author: ''
 date: '2019-12-27'
-draft: true
 slug: ens-610-semester-recap-fall-2019
 categories:
   - Teaching
@@ -34,4 +33,4 @@ For the second half, we read sections of various [IPCC Reports](https://www.ipcc
 * Setup more low-stakes writing assignments 
     * Require a draft
 * Need to think more about weekly reading responses
-    * The point of the responses is to make sure the students read the materials before coming to class. However, I'm not convinced I'm using them affectively. Partly this is because I so often fall behind on scoring them, and my current rubric is definitely not alligned with my goals for these assignments. Next year I need to bring a backward design approach to my weekly assessments.
+    * The point of the responses is to make sure the students read the materials before coming to class. However, I'm not convinced I'm using them effectively. Partly this is because I so often fall behind on scoring them, and my current rubric is definitely not aligned with my goals for these assignments. Next year I need to bring a backward design approach to my weekly assessments.
