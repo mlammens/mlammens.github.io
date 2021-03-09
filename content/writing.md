@@ -9,6 +9,7 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+* 2021-03-09 Blog writing about law school presentation / culvert project
 * 2021-03-08 Meeting re: KM thesis
 
 * 2021-03-02 Culvert ms presentation development
