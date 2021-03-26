@@ -58,10 +58,12 @@ A few things that really strike me here:
 3. There isn't much of a relationship between HR and pace on the trails. Wait, what? Why's that?
 
 ```{r}
-ggplot(data = running_new, aes(x = `Avg Pace`, y = `Avg HR`, colour = Trail, size = Distance)) +
+run_plot <-
+  ggplot(data = running_new, aes(x = `Avg Pace`, y = `Avg HR`, colour = Trail, size = Distance)) +
   geom_point() +
   geom_smooth(method = "lm") +
   theme_bw()
+run_plot
 ```
 
 For fun, I also ran a linear regression (actually an ANCOVA, of sorts). 
