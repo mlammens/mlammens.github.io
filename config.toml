@@ -4,7 +4,6 @@ title = "Personal website for Matt Aiello-Lammens"
 theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 
 [permalinks]
