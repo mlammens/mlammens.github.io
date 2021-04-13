@@ -9,6 +9,8 @@ Good question. For the most part I think it's a psychological trick I'm playing 
 
 ## Log
 
+* 2021-04-12 Worked on presentation for Pitch Pine work at NENHC
+
 * 2021-03-29 Development of Story Map for Amphibian Connectivity project
 
 * 2021-03-09 Blog writing about law school presentation / culvert project
