@@ -1,0 +1,171 @@
+---
+title: Random matrix generation
+author: ''
+date: '2020-03-17'
+slug: random-matrix-generation
+categories:
+  - Research
+tags:
+  - R Code
+---
+
+
+
+<p>For better or worse, having lots of time inside during the <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">COVID-19 Pandemic</a> has led me to tackle some of my outstanding R coding problems. Here’s one possible solution I’ve come up with for generating random community abundance matrices following one of the suggested approaches in <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/09-2157.1">Ulrich and Gotelli 2010</a>.</p>
+<div id="implementing-the-it-random-matrix-filling-creation-algorithm-from-ulrich-and-gotelli-2010-ecology." class="section level1">
+<h1>Implementing the IT random matrix filling / creation algorithm from Ulrich and Gotelli 2010, Ecology.</h1>
+<p>To quote from the text:</p>
+<blockquote>
+<p>IT assigns individuals randomly to matrix cells with probabilities proportional to observed row and column abundance totals until, for each row and column, total abundances are reached.</p>
+</blockquote>
+<div id="approach" class="section level2">
+<h2>Approach</h2>
+<p>To sample with “probabilities proportional to observed row and column abundance totals”, I used the <code>chisq.test</code> function. The expected values in a matrix (or contingency table) are a function of the row and column abundances. I believe this approach is supported by Ulrich and Gotelli’s comparison of the results they found using the IT algorithm compared to <span class="math inline">\(\chi^2\)</span> analysis for 200 random matrices (p. 3395).</p>
+<p>Using these <strong>expected</strong> values, we can generate matrices comprised of all zero values <em>except</em> a single 1 value for a random matrix element. The element that is assigned a value of 1 will be decided based on a random draw from the matrix indices that is weighted by the <em>expected</em> values in the original matrix. Next, by adding a series of these random matrices we can make a new matrix with the same <strong>matrix sum</strong> as the original matrix. Finally, using an <code>if</code> statement, we can do this while assuring that the row and column abundances remain the same as the original matrix.</p>
+</div>
+<div id="working-through-an-example" class="section level2">
+<h2>Working through an example</h2>
+<p>Below I present two examples of using this approach. The first comes from the help file for the <code>chisq.test</code> function, with some small modifications.</p>
+<div id="chisq.test-example" class="section level3">
+<h3><code>chisq.test</code> example</h3>
+<p>First thing to do is to use <code>chisq.test</code> to get the <strong>expected</strong> counts for any matrix. These expected counts are a function of the row and column sums:</p>
+<p><span class="math display">\[
+\text{expected count} = \frac{\text{row sum} \times \text{column sum}}{\text{matrix sum}}
+\]</span></p>
+<pre class="r"><code>M &lt;- as.table(rbind(c(762, 327, 468), c(484, 239, 477)))
+Xsq &lt;- chisq.test(M)  # Prints test summary
+# Xsq$observed   # observed counts (same as M)
+Xsq$expected   # expected counts under the null</code></pre>
+<pre><code>##          A        B        C
+## A 703.6714 319.6453 533.6834
+## B 542.3286 246.3547 411.3166</code></pre>
+<p>Next, we use a <code>while</code> loop to make a new matrix with a matrix sum equal to that of the original matrix. Within the <code>while</code> loop, new matrices are created with all zeros <em>except</em> a randomly placed value of 1. We’re adding an <code>if</code> statement to “throw out” new zero matrices that result in row or column sums that are greater than those for the original matrix.</p>
+<pre class="r"><code># Make a new matrix of all zeros
+new_mat &lt;- M * 0
+
+while(sum(new_mat) &lt; sum(M)){
+  zero_mat &lt;- M * 0
+  zero_mat[sample(1:length(Xsq$expected), size = 1, prob = Xsq$expected)] &lt;- 1
+  new_mat_temp &lt;- new_mat + zero_mat
+  if( !any((rowSums(new_mat_temp) - rowSums(Xsq$expected)) &gt; 0 ) &amp;
+      !any((colSums(new_mat_temp) - colSums(Xsq$expected)) &gt; 0 )) {
+    new_mat &lt;- new_mat_temp
+  }
+}
+new_mat</code></pre>
+<pre><code>##     A   B   C
+## A 707 309 541
+## B 539 257 404</code></pre>
+<p>Finally, let’s do just a few checks to make sure the matrix sums are the same and the row and column sums are the same.</p>
+<pre class="r"><code>sum(new_mat) == sum(M)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>all(rowSums(new_mat) == rowSums(Xsq$expected))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>all(colSums(new_mat) == colSums(Xsq$expected))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+</div>
+<div id="a-larger-random-matrix" class="section level3">
+<h3>A larger random matrix</h3>
+<p>Here I’m applying the same setup as above on a 10 x 10 matrix, with shuffled values between 1 and 100.</p>
+<pre class="r"><code>rand_matr &lt;- matrix(sample(1:100), nrow = 10, ncol = 10)
+rand_matr_exp &lt;- chisq.test(rand_matr)$expected 
+
+# Make a new matrix of all zeros
+new_mat &lt;- rand_matr * 0
+
+while(sum(new_mat) &lt; sum(rand_matr)){
+  zero_mat &lt;- rand_matr * 0
+  zero_mat[sample(1:length(rand_matr_exp), size = 1, prob = rand_matr_exp)] &lt;- 1
+  new_mat_temp &lt;- new_mat + zero_mat
+  if( !any((rowSums(new_mat_temp) - rowSums(rand_matr_exp)) &gt; 0 ) &amp;
+      !any((colSums(new_mat_temp) - colSums(rand_matr_exp)) &gt; 0 )) {
+    new_mat &lt;- new_mat_temp
+  }
+}
+new_mat</code></pre>
+<pre><code>##       [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+##  [1,]   32   36   44   66   65   45   52   30   43    24
+##  [2,]   47   52   68   61   70   70   82   40   58    50
+##  [3,]   35   56   44   48   75   51   61   40   53    49
+##  [4,]   38   53   70   70   67   69   67   43   55    45
+##  [5,]   39   47   58   48   84   42   64   48   50    45
+##  [6,]   15   39   32   48   48   35   51   22   34    27
+##  [7,]   48   63   73   75  106   83   67   48   52    55
+##  [8,]   44   50   67   60   75   67   59   41   50    49
+##  [9,]   29   33   22   42   38   39   34   22   35    26
+## [10,]   41   42   54   53   52   52   50   43   66    45</code></pre>
+<pre class="r"><code>sum(new_mat) == sum(rand_matr)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>all(rowSums(new_mat) == rowSums(rand_matr_exp))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>all(colSums(new_mat) == colSums(rand_matr_exp))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+</div>
+</div>
+<div id="making-a-function-for-this" class="section level2">
+<h2>Making a function for this</h2>
+<p>Let’s make this into a function</p>
+<pre class="r"><code>it_randomize &lt;- function(matr){
+  
+  # perform chisq test to get expected values
+  matr_exp &lt;- chisq.test(matr)$expected 
+  
+  # make a new matrix of all zeros
+  new_mat &lt;- matr * 0
+  
+  # use a while loop to add matrices with a single, randomly
+  # placed value of 1 until
+  # the new_mat sum is the same as the original matrix
+  while(sum(new_mat) &lt; sum(matr)){
+    # make a random matrix
+    # this is done by randomly choosing a matrix index value, weighted
+    # by the expected matrix values at each index
+    zero_mat &lt;- matr * 0
+    zero_mat[sample(1:length(matr_exp), size = 1, prob = matr_exp)] &lt;- 1
+    
+    # add the random matrix to the new_mat temporalily
+    new_mat_temp &lt;- new_mat + zero_mat
+    
+    # keep new_mat_temp if it doesn&#39;t result in over filling the 
+    # row or column sums
+    if( !any((rowSums(new_mat_temp) - rowSums(matr_exp)) &gt; 0 ) &amp;
+        !any((colSums(new_mat_temp) - colSums(matr_exp)) &gt; 0 )) {
+      new_mat &lt;- new_mat_temp
+    }
+  }
+  
+  return(new_mat)
+}</code></pre>
+<p>Apply the new function</p>
+<pre class="r"><code>new_mat &lt;- it_randomize(M)
+new_mat</code></pre>
+<pre><code>##     A   B   C
+## A 717 306 534
+## B 529 260 411</code></pre>
+<pre class="r"><code>sum(new_mat) == sum(M)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>all(rowSums(new_mat) == rowSums(Xsq$expected))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>all(colSums(new_mat) == colSums(Xsq$expected))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>new_mat &lt;- it_randomize(rand_matr)
+new_mat</code></pre>
+<pre><code>##       [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+##  [1,]   39   38   37   49   61   51   56   32   33    41
+##  [2,]   49   61   51   63   90   59   61   51   50    63
+##  [3,]   33   45   55   59   73   56   51   40   59    41
+##  [4,]   31   63   70   71   76   58   70   39   52    47
+##  [5,]   43   53   62   59   59   58   48   39   60    44
+##  [6,]   38   34   43   44   33   35   35   24   36    29
+##  [7,]   40   67   78   73   87   68   83   51   70    53
+##  [8,]   35   35   54   62   75   71   82   42   59    47
+##  [9,]   24   31   33   32   45   37   40   26   32    20
+## [10,]   36   44   49   59   81   60   61   33   45    30</code></pre>
+<pre class="r"><code>sum(new_mat) == sum(rand_matr)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>all(rowSums(new_mat) == rowSums(rand_matr_exp))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>all(colSums(new_mat) == colSums(rand_matr_exp))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+</div>
+</div>
