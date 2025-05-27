@@ -33,7 +33,7 @@ footnotereturnlinkcontents = "↩"
 
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "&copy; Matthew E. Aiello-Lammens 2014 -- 2024 | [Github](https://github.com/mlammens) | [Twitter](https://twitter.com/MattLammens)"
+    footer = "&copy; Matthew E. Aiello-Lammens 2014 -- 2025 | [Github](https://github.com/mlammens) | [Twitter](https://twitter.com/MattLammens)"
 
 [markup]
   [markup.goldmark]

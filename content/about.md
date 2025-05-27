@@ -7,7 +7,7 @@ title: About
 
 Hi, I'm Matt Aiello-Lammens
 
-I'm an Assistant Professor in the 
+I'm an Associate Professor in the 
 [Environmental Studies and Science Department](http://www.pace.edu/dyson/academic-departments-and-programs/environmental-studies-and-science) at Pace University.
 From 2007 to 2015 I trained as ecologist as a postdoc in the Department of Ecology and Evolutionary Biology at the University of Connecticut with 
 [John Silander](http://hydrodictyon.eeb.uconn.edu/people/silander/) 
